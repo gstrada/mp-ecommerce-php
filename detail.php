@@ -509,6 +509,10 @@
                                         <?php echo "$" . $_POST['price'] ?>
                                     </h3>
                                 </div>
+                                <script
+                                        src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+                                        data-preference-id="">
+                                </script>
                                 <button type="submit" class="mercadopago-button" formmethod="post">Pagar</button>
                             </div>
                         </div>
