@@ -39,8 +39,8 @@
 
 <div class="container-fluid">
     <div class="row" style="display: flex; justify-content: center">
-        <div style="margin-top: 15%; width: 80%; background-color: #e9bf63; height: 100px; border-radius: 15px;display: flex;justify-content: center
-                    ; align-items: center; color: sandybrown">
+        <div style="margin-top: 15%; width: 80%; background-color: #eec643; height: 100px; border-radius: 15px;display: flex;justify-content: center
+                    ; align-items: center; color: #ffffff">
             <h1>Tu compra está pendiente de confirmación del pago</h1>
         </div>
 

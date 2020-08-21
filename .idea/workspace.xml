@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd81f62d-4f2c-4a29-967c-17ce1645dd9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/failure.php" beforeDir="false" afterPath="$PROJECT_DIR$/failure.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp-ecommerce-php/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mp-ecommerce-php/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp-ecommerce-php/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mp-ecommerce-php/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notifications.php" beforeDir="false" afterPath="$PROJECT_DIR$/notifications.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pending.php" beforeDir="false" afterPath="$PROJECT_DIR$/pending.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/success.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -32,7 +41,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gO6kof62rh7lvpULcecyrqTmke" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -56,6 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1597973437663</updated>
       <workItem from="1597973438782" duration="18817000" />
+      <workItem from="1598031012838" duration="191000" />
+      <workItem from="1598031339024" duration="6627000" />
     </task>
     <task id="LOCAL-00001" summary="reformat code">
       <created>1597974232886</created>
@@ -439,9 +450,9 @@
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
     <state x="1638" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597992350218" />
-    <state x="1753" y="117" width="585" height="534" key="find.popup" timestamp="1597982274325">
+    <state x="1753" y="117" width="585" height="534" key="find.popup" timestamp="1598031633603">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
-    <state x="1753" y="117" width="585" height="534" key="find.popup/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597982274325" />
+    <state x="1753" y="117" width="585" height="534" key="find.popup/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1598031633603" />
   </component>
 </project>

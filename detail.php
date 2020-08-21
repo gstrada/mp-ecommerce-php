@@ -1,4 +1,53 @@
+<?php
+// SDK de Mercado Pago
+require './vendor/autoload.php';
 
+// Agrega credenciales
+MercadoPago\SDK::setAccessToken('APP_USR-6317427424180639-042414-47e969706991d3a442922b0702a0da44-469485398');
+
+// Crea un objeto de preferencia
+$preference = new MercadoPago\Preference();
+
+// Crea un ítem en la preferencia
+$item = new MercadoPago\Item();
+$item->id = '1234';
+$item->title = $_POST['title'];
+$item->description = 'Dispositivo móvil de Tienda e-commerce';
+$item->picture_url = $_POST['img'];
+$item->quantity = $_POST['unit'];
+$item->unit_price = $_POST['price'];
+// Agrego datos payer
+$payer = new MercadoPago\Payer();
+$payer->name = 'Lalo';
+$payer->surname = 'Landa';
+$payer->email = 'test_user_63274575@testuser.com';
+$payer->phone = array('area_code' => '11', 'number' => '22223333');
+$payer->address = array('street_name' => 'False', 'street_number' => '123', 'zip_code' => '1111');
+
+
+$preference->items = array($item);
+$preference->payer = $payer;
+$preference->back_urls = array(
+    'success' => 'https://localhost/success.php',
+    'failure' => 'https://localhost/failure.php',
+    'pending' => 'https://localhost/pending.php'
+);
+$preference->auto_return = 'approved';
+$preference->payment_methods = array(
+    'excluded_payment_methods' => array(
+        array('id' => 'amex')
+    ),
+    'excluded_payment_types'   => array(
+        array('id' => 'atm')
+    ),
+    'installments'             => 6
+);
+$preference->external_reference = 'guillermostrada@gmail.com';
+$preference->integrator_id = 'dev_24c65fb163bf11ea96500242ac130004';
+$preference->notification_url = 'https://localhost/notifications.php';
+
+$preference->save();
+?>
 <!DOCTYPE html>
 <html class="supports-animation supports-columns svg no-touch no-ie no-oldie no-ios supports-backdrop-filter as-mouseuser"
       lang="en-US">
@@ -11,7 +60,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="format-detection" content="telephone=no">
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
     <script src="https://www.mercadopago.com/v2/security.js" view=""></script>
 
@@ -492,24 +542,26 @@
                                 </div>
 
                             </div>
-                                <div class="as-producttile-info" style="float:left;min-height: 168px;">
-                                    <div class="as-producttile-titlepricewraper" style="min-height: 128px;">
-                                        <div class="as-producttile-title">
-                                            <h3 class="as-producttile-name">
-                                                <p class="as-producttile-tilelink">
-                                                    <span data-ase-truncate="2"><?php echo $_POST['title'] ?></span>
-                                                </p>
-                                            </h3>
-                                        </div>
-                                        <h3>
-                                            <?php echo 'Cant. ' . $_POST['unit'] ?>
-                                        </h3>
-                                        <h3>
-                                            <?php echo "$" . $_POST['price'] ?>
+                            <div class="as-producttile-info" style="float:left;min-height: 168px;">
+                                <div class="as-producttile-titlepricewraper" style="min-height: 128px;">
+                                    <div class="as-producttile-title">
+                                        <h3 class="as-producttile-name">
+                                            <p class="as-producttile-tilelink">
+                                                <span data-ase-truncate="2"><?php echo $_POST['title'] ?></span>
+                                            </p>
                                         </h3>
                                     </div>
-                                    <a href="<?php echo $preference->init_point; ?>">Pagar la compra</a>
+                                    <h3>
+                                        <?php echo 'Cant. ' . $_POST['unit'] ?>
+                                    </h3>
+                                    <h3>
+                                        <?php echo "$" . $_POST['price'] ?>
+                                    </h3>
                                 </div>
+                                <a href="<?php echo $preference->init_point; ?>">
+                                    <button type="button" class="mercadopago-button">Pagar la compra</button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
