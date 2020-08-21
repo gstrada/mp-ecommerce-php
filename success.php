@@ -37,13 +37,14 @@
                     ; align-items: center; color: #006400">
                 <h1>Tu compra fué realizada exitosamente!</h1>
             </div>
-            <br>
+
 
         </div>
+    <br>
     <div class="row" style="display: flex; justify-content: center">
         <div class="col-md-12 d-flex justify-content-center">
             <a href="/index.php">
-                <button type="button" class="btn btn-primary"></button></a>
+                <button type="button" class="btn btn-primary">Volver al inicio</button></a>
         </div>
     </div>
     <div class="as-footnotes" style="position: absolute; bottom: 0px; width: 100%">
