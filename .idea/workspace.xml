@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd81f62d-4f2c-4a29-967c-17ce1645dd9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/procesar-pago.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/procesar-pago.php" beforeDir="false" afterPath="$PROJECT_DIR$/notifications.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597973437663</updated>
-      <workItem from="1597973438782" duration="4296000" />
+      <workItem from="1597973438782" duration="10278000" />
     </task>
     <task id="LOCAL-00001" summary="reformat code">
       <created>1597974232886</created>
@@ -94,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597977063722</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creo preferencia de pago">
+      <created>1597977810609</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597977810609</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,7 +113,8 @@
     <MESSAGE value="reformat code" />
     <MESSAGE value="fix cant y precio" />
     <MESSAGE value="Agrego botón MP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agrego botón MP" />
+    <MESSAGE value="Creo preferencia de pago" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creo preferencia de pago" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1856" y="263" key="#Composer" timestamp="1597973616101">
@@ -116,17 +125,21 @@
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
     <state x="1672" y="62" key="#Inspections/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597973971142" />
-    <state x="1671" y="0" key="CommitChangelistDialog2" timestamp="1597976908172">
+    <state x="1671" y="0" key="CommitChangelistDialog2" timestamp="1597977804182">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
-    <state x="1671" y="0" key="CommitChangelistDialog2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597976908172" />
+    <state x="1671" y="0" key="CommitChangelistDialog2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597977804182" />
     <state x="1880" y="307" key="NewPhpFileDialog" timestamp="1597977410588">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
     <state x="1880" y="307" key="NewPhpFileDialog/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597977410588" />
-    <state x="1638" y="117" key="Vcs.Push.Dialog.v2" timestamp="1597977086891">
+    <state x="1638" y="117" key="Vcs.Push.Dialog.v2" timestamp="1597977829864">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
-    <state x="1638" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597977086891" />
+    <state x="1638" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597977829864" />
+    <state x="1753" y="117" width="585" height="534" key="find.popup" timestamp="1597982274325">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state x="1753" y="117" width="585" height="534" key="find.popup/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597982274325" />
   </component>
 </project>
