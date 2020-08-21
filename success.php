@@ -446,14 +446,9 @@
                     <div class="as-searchnav-placeholder" style="height: 77px;">
                         <div class="row as-search-navbar" id="as-search-navbar" style="width: auto;">
                             <div class="as-accessories-filter-tile column large-6 small-3">
-
-                                <button class="as-filter-button" aria-expanded="true" aria-controls="as-search-filters"
-                                        type="button">
-                                    <h2 class=" as-filter-button-text">
-                                        Smartphones
-                                    </h2>
-                                </button>
-
+                                <div style="width: 80%; background-color: #a2bd90">
+                                    <h1>Tu compra fué realizada exitosamente!</h1>
+                                </div>
 
                             </div>
 
@@ -465,7 +460,7 @@
         </div>
     </div>
     <div role="alert" class="as-loader-text ally" aria-live="assertive"></div>
-    <div class="as-footnotes">
+    <div class="as-footnotes" style="position: absolute; bottom: 0px; width: 100%">
         <div class="as-footnotes-content">
             <div class="as-footnotes-sosumi">
                 Todos los derechos reservados Tienda Tecno 2019
