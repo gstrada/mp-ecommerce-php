@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd81f62d-4f2c-4a29-967c-17ce1645dd9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/failure.php" beforeDir="false" afterPath="$PROJECT_DIR$/failure.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp-ecommerce-php/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mp-ecommerce-php/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp-ecommerce-php/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mp-ecommerce-php/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications.php" beforeDir="false" afterPath="$PROJECT_DIR$/notifications.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pending.php" beforeDir="false" afterPath="$PROJECT_DIR$/pending.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/success.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,21 +58,7 @@
       <updated>1597973437663</updated>
       <workItem from="1597973438782" duration="18817000" />
       <workItem from="1598031012838" duration="191000" />
-      <workItem from="1598031339024" duration="6627000" />
-    </task>
-    <task id="LOCAL-00001" summary="reformat code">
-      <created>1597974232886</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1597974232887</updated>
-    </task>
-    <task id="LOCAL-00002" summary="fix cant y precio">
-      <created>1597974630817</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1597974630817</updated>
+      <workItem from="1598031339024" duration="7726000" />
     </task>
     <task id="LOCAL-00003" summary="Agrego botón MP">
       <created>1597975824741</created>
@@ -411,7 +389,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597992346928</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Configuracion webhook">
+      <created>1598038653539</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1598038653548</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Pongo url heroku">
+      <created>1598038872113</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1598038872114</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +419,9 @@
     <MESSAGE value="Creo back_url_pending" />
     <MESSAGE value="Creo back_url_failure" />
     <MESSAGE value="Reformat details" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reformat details" />
+    <MESSAGE value="Configuracion webhook" />
+    <MESSAGE value="Pongo url heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pongo url heroku" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1856" y="263" key="#Composer" timestamp="1597973616101">
@@ -438,18 +432,18 @@
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
     <state x="1672" y="62" key="#Inspections/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597973971142" />
-    <state x="1671" y="129" width="749" height="639" key="CommitChangelistDialog2" timestamp="1597992340550">
+    <state x="1671" y="129" width="749" height="639" key="CommitChangelistDialog2" timestamp="1598038868487">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
-    <state x="1671" y="129" width="749" height="639" key="CommitChangelistDialog2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597992340550" />
+    <state x="1671" y="129" width="749" height="639" key="CommitChangelistDialog2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1598038868487" />
     <state x="1880" y="307" key="NewPhpFileDialog" timestamp="1597984002943">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
     <state x="1880" y="307" key="NewPhpFileDialog/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597984002943" />
-    <state x="1638" y="117" key="Vcs.Push.Dialog.v2" timestamp="1597992350218">
+    <state x="1638" y="117" key="Vcs.Push.Dialog.v2" timestamp="1598038890611">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
-    <state x="1638" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597992350218" />
+    <state x="1638" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1598038890611" />
     <state x="1753" y="117" width="585" height="534" key="find.popup" timestamp="1598031633603">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>

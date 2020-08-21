@@ -44,7 +44,7 @@ $preference->payment_methods = array(
 );
 $preference->external_reference = 'guillermostrada@gmail.com';
 $preference->integrator_id = 'dev_24c65fb163bf11ea96500242ac130004';
-$preference->notification_url = 'https://gstrada-mp-ecommerce-php.herokuapp.com//notifications.php';
+$preference->notification_url = 'https://b36f7bdbfde7abce01aced3c79fe3c55.m.pipedream.net';
 
 $preference->save();
 ?>
