@@ -410,58 +410,7 @@
             border: 0;
         } </style>
 </head>
-<?php
-// SDK de Mercado Pago
-require 'vendor/autoload.php';
 
-// Agrega credenciales
-MercadoPago\SDK::setAccessToken('APP_USR-6317427424180639-042414-47e969706991d3a442922b0702a0da44-469485398');
-
-// Crea un objeto de preferencia
-$preference = new MercadoPago\Preference();
-
-// Crea un ítem en la preferencia
-$item = new MercadoPago\Item();
-$item->id = '1234';
-$item->title = $_POST['title'];
-$item->description = 'Dispositivo móvil de Tienda e-commerce';
-$item->picture_url = $_POST['img'];
-$item->quantity = $_POST['unit'];
-$item->unit_price = $_POST['price'];
-// Agrego datos payer
-$payer = new MercadoPago\Payer();
-$payer->name = 'Lalo';
-$payer->surname = 'Landa';
-$payer->email = 'test_user_63274575@testuser.com';
-$payer->phone = array('area_code' => '11', 'number' => '22223333');
-$payer->address = array('street_name' => 'False', 'street_number' => '123', 'zip_code' => '1111');
-
-
-$preference->items = array($item);
-$preference->payer = $payer;
-$preference->back_urls = array(
-    'success' => 'https://gstrada-mp-ecommerce-php.herokuapp.com/success.php',
-    'failure' => 'https://gstrada-mp-ecommerce-php.herokuapp.com/failure.php',
-    'pending' => 'https://gstrada-mp-ecommerce-php.herokuapp.com/pending.php'
-);
-$preference->auto_return = 'approved';
-$preference->payment_methods = array(
-    'excluded_payment_methods' => array(
-        array('id' => 'amex')
-    ),
-    'excluded_payment_types' => array(
-        array('id' => 'atm')
-    ),
-    'installments' => 6
-);
-$preference->external_reference = 'guillermostrada@gmail.com';
-$preference->collector_id = '469485398';
-$preference->integrator_id = 'dev_24c65fb163bf11ea96500242ac130004';
-$preference->notification_url = 'https://gstrada-mp-ecommerce-php.herokuapp.com/notifications.php';
-
-$preference->save();
-var_dump($preference);
-?>
 
 <body class="as-theme-light-heroimage">
 
@@ -521,7 +470,58 @@ var_dump($preference);
                                          style="max-width: 70%;max-height: 70%;" alt="" width="445" height="445">
                                 </div>
                                 <div class="images mini-gallery gal5 ">
+                                    <?php
+                                    // SDK de Mercado Pago
+                                    require 'vendor/autoload.php';
 
+                                    // Agrega credenciales
+                                    MercadoPago\SDK::setAccessToken('APP_USR-6317427424180639-042414-47e969706991d3a442922b0702a0da44-469485398');
+
+                                    // Crea un objeto de preferencia
+                                    $preference = new MercadoPago\Preference();
+
+                                    // Crea un ítem en la preferencia
+                                    $item = new MercadoPago\Item();
+                                    $item->id = '1234';
+                                    $item->title = $_POST['title'];
+                                    $item->description = 'Dispositivo móvil de Tienda e-commerce';
+                                    $item->picture_url = $_POST['img'];
+                                    $item->quantity = $_POST['unit'];
+                                    $item->unit_price = $_POST['price'];
+                                    // Agrego datos payer
+                                    $payer = new MercadoPago\Payer();
+                                    $payer->name = 'Lalo';
+                                    $payer->surname = 'Landa';
+                                    $payer->email = 'test_user_63274575@testuser.com';
+                                    $payer->phone = array('area_code' => '11', 'number' => '22223333');
+                                    $payer->address = array('street_name' => 'False', 'street_number' => '123', 'zip_code' => '1111');
+
+
+                                    $preference->items = array($item);
+                                    $preference->payer = $payer;
+                                    $preference->back_urls = array(
+                                        'success' => 'https://gstrada-mp-ecommerce-php.herokuapp.com/success.php',
+                                        'failure' => 'https://gstrada-mp-ecommerce-php.herokuapp.com/failure.php',
+                                        'pending' => 'https://gstrada-mp-ecommerce-php.herokuapp.com/pending.php'
+                                    );
+                                    $preference->auto_return = 'approved';
+                                    $preference->payment_methods = array(
+                                        'excluded_payment_methods' => array(
+                                            array('id' => 'amex')
+                                        ),
+                                        'excluded_payment_types' => array(
+                                            array('id' => 'atm')
+                                        ),
+                                        'installments' => 6
+                                    );
+                                    $preference->external_reference = 'guillermostrada@gmail.com';
+                                    $preference->collector_id = '469485398';
+                                    $preference->integrator_id = 'dev_24c65fb163bf11ea96500242ac130004';
+                                    $preference->notification_url = 'https://gstrada-mp-ecommerce-php.herokuapp.com/notifications.php';
+
+                                    $preference->save();
+                                    var_dump($preference);
+                                    ?>
 
                                     <div class="as-isdesktop with-paddlenav with-paddlenav-onhover">
                                         <div class="clearfix image-list xs-no-js as-util-relatedlink relatedlink"
