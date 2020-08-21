@@ -48,46 +48,33 @@
     </style>
 </head>
 
-<body class="as-theme-light-heroimage">
+<body>
 
-<div class="stack">
-
-    <div class="as-search-wrapper" role="main">
-        <div class="as-navtuck-wrapper">
-            <div class="as-l-fullwidth  as-navtuck" data-events="event52">
-                <div>
-                    <div class="pd-billboard pd-category-header">
-                        <div class="pd-l-plate-scale">
-                            <div class="pd-billboard-background">
-                                <img src="./assets/music-audio-alp-201709" alt="" width="1440" height="320"
-                                     data-scale-params-2="wid=2880&amp;hei=640&amp;fmt=jpeg&amp;qlt=95&amp;op_usm=0.5,0.5&amp;.v=1503948581306"
-                                     class="pd-billboard-hero ir">
-                            </div>
-                            <div class="pd-billboard-info">
-                                <h1 class="pd-billboard-header pd-util-compact-small-18">Tienda e-commerce</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12" style="padding: 0px 0px 0px 0px">
+            <img src="./assets/music-audio-alp-201709" alt="" width="1440" height="320"
+                 data-scale-params-2="wid=2880&amp;hei=640&amp;fmt=jpeg&amp;qlt=95&amp;op_usm=0.5,0.5&amp;.v=1503948581306"
+                 class="pd-billboard-hero ir">
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="as-accessories-filter-tile column large-12 small-6 " style="display: flex; justify-content: center">
+            <div style="width: 80%; background-color: #a2bd90; height: 100px; border-radius: 15px;display: flex;justify-content: center
+                    ; align-items: center; color: #006400">
+                <h1>Tu compra fué realizada exitosamente!</h1>
+                <br>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="as-accessories-filter-tile column large-12 small-6 " style="display: flex; justify-content: center">
-                <div style="width: 80%; background-color: #a2bd90; height: 100px; border-radius: 15px;display: flex;justify-content: center
-                        ; align-items: center; color: #006400">
-                    <h1>Tu compra fué realizada exitosamente!</h1>
-                    <br>
-                </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <a href="/index.php">
+                    <button type="button" class="btn btn-primary"></button></a>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 d-flex justify-content-center">
-                    <a href="/index.php">
-                        <button type="button" class="btn btn-primary"></button></a>
-                </div>
-            </div>
-        </div>
+    </div>
     <div class="as-footnotes" style="position: absolute; bottom: 0px; width: 100%">
         <div class="as-footnotes-content">
             <div class="as-footnotes-sosumi">
