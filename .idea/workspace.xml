@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cd81f62d-4f2c-4a29-967c-17ce1645dd9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notifications.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +58,7 @@
       <updated>1597973437663</updated>
       <workItem from="1597973438782" duration="18817000" />
       <workItem from="1598031012838" duration="191000" />
-      <workItem from="1598031339024" duration="7726000" />
-    </task>
-    <task id="LOCAL-00003" summary="Agrego botón MP">
-      <created>1597975824741</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1597975824741</updated>
+      <workItem from="1598031339024" duration="8829000" />
     </task>
     <task id="LOCAL-00004" summary="Agrego botón MP">
       <created>1597976816155</created>
@@ -403,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598038872114</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Cambio webhook">
+      <created>1598039833281</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1598039833283</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +421,8 @@
     <MESSAGE value="Reformat details" />
     <MESSAGE value="Configuracion webhook" />
     <MESSAGE value="Pongo url heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pongo url heroku" />
+    <MESSAGE value="Cambio webhook" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambio webhook" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1856" y="263" key="#Composer" timestamp="1597973616101">
@@ -432,18 +433,18 @@
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
     <state x="1672" y="62" key="#Inspections/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597973971142" />
-    <state x="1671" y="129" width="749" height="639" key="CommitChangelistDialog2" timestamp="1598038868487">
+    <state x="1671" y="129" width="749" height="639" key="CommitChangelistDialog2" timestamp="1598039829114">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
-    <state x="1671" y="129" width="749" height="639" key="CommitChangelistDialog2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1598038868487" />
+    <state x="1671" y="129" width="749" height="639" key="CommitChangelistDialog2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1598039829114" />
     <state x="1880" y="307" key="NewPhpFileDialog" timestamp="1597984002943">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
     <state x="1880" y="307" key="NewPhpFileDialog/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597984002943" />
-    <state x="1638" y="117" key="Vcs.Push.Dialog.v2" timestamp="1598038890611">
+    <state x="1638" y="117" key="Vcs.Push.Dialog.v2" timestamp="1598039839857">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
-    <state x="1638" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1598038890611" />
+    <state x="1638" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1598039839857" />
     <state x="1753" y="117" width="585" height="534" key="find.popup" timestamp="1598031633603">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
