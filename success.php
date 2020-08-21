@@ -35,7 +35,7 @@
     </style>
 </head>
 
-<body style="background-image: url('./assets/music-audio-alp-201709'); background-size: cover">
+<body style="background-image: url('./assets/music-audio-alp-201709'); background-size: cover; height: 100vh">
 
 <div class="container-fluid">
         <div class="row" style="display: flex; justify-content: center">
