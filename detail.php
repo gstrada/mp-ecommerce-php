@@ -492,29 +492,52 @@
                                 </div>
 
                             </div>
-                            <div class="as-producttile-info" style="float:left;min-height: 168px;">
-                                <div class="as-producttile-titlepricewraper" style="min-height: 128px;">
-                                    <div class="as-producttile-title">
-                                        <h3 class="as-producttile-name">
-                                            <p class="as-producttile-tilelink">
-                                                <span data-ase-truncate="2"><?php echo $_POST['title'] ?></span>
-                                            </p>
+                            <form action="/procesar-pago" method="POST">
+                                <?php
+                                // SDK de Mercado Pago
+                                require __DIR__ . '/vendor/autoload.php';
 
+                                // Agrega credenciales
+                                MercadoPago\SDK::setAccessToken('PROD_ACCESS_TOKEN');
+
+                                // Crea un objeto de preferencia
+                                $preference = new MercadoPago\Preference();
+
+                                // Crea un ítem en la preferencia
+                                $item = new MercadoPago\Item();
+                                $item->title = $_POST['title'];
+                                $item->quantity = $_POST['unit'];
+                                $item->unit_price = $_POST['price'];
+                                $preference->items = array($item);
+                                $preference->save();
+                                var_dump($preference);
+                                ?>
+                                <div class="as-producttile-info" style="float:left;min-height: 168px;">
+                                    <div class="as-producttile-titlepricewraper" style="min-height: 128px;">
+                                        <div class="as-producttile-title">
+                                            <h3 class="as-producttile-name">
+                                                <p class="as-producttile-tilelink">
+                                                    <span data-ase-truncate="2"><?php echo $_POST['title'] ?></span>
+                                                </p>
+                                            </h3>
+                                        </div>
+                                        <input type="hidden" name="cantidad" id="cantidad"
+                                               value="<?php echo $_POST['unit'] ?>">
+                                        <h3>
+                                            <?php echo 'Cant. ' . $_POST['unit'] ?>
+                                        </h3>
+                                        <input type="hidden" name="precio" id="precio"
+                                               value="<?php echo $_POST['price'] ?>">
+                                        <h3>
+                                            <?php echo "$" . $_POST['price'] ?>
                                         </h3>
                                     </div>
-                                    <h3>
-                                        <?php echo 'Cant. '. $_POST['unit'] ?>
-                                    </h3>
-                                    <h3>
-                                        <?php echo "$" . $_POST['price'] ?>
-                                    </h3>
+                                    <script
+                                            src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+                                            data-preference-id="<?php echo $preference->id; ?>">
+                                    </script>
                                 </div>
-                                <script
-                                        src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-                                        data-preference-id="">
-                                </script>
-                                <button type="submit" class="mercadopago-button" formmethod="post">Pagar</button>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -531,32 +554,38 @@
     </div>
 
 </div>
-<div class="mp-mercadopago-checkout-wrapper" style="z-index:-2147483647;display:block;background:rgba(0, 0, 0, 0.7);border:0;overflow:hidden;visibility:hidden;margin:0;padding:0;position:fixed;left:0;top:0;width:0;opacity:0;height:0;transition:opacity 220ms ease-in;">
+<div class="mp-mercadopago-checkout-wrapper"
+     style="z-index:-2147483647;display:block;background:rgba(0, 0, 0, 0.7);border:0;overflow:hidden;visibility:hidden;margin:0;padding:0;position:fixed;left:0;top:0;width:0;opacity:0;height:0;transition:opacity 220ms ease-in;">
     <svg class="mp-spinner" viewBox="25 25 50 50">
         <circle class="mp-spinner-path" cx="50" cy="50" r="20" fill="none" stroke-miterlimit="10"></circle>
     </svg>
 </div>
-<div class="mp-mercadopago-checkout-wrapper" style="z-index:-2147483647;display:block;background:rgba(0, 0, 0, 0.7);border:0;overflow:hidden;visibility:hidden;margin:0;padding:0;position:fixed;left:0;top:0;width:0;opacity:0;height:0;transition:opacity 220ms ease-in;">
+<div class="mp-mercadopago-checkout-wrapper"
+     style="z-index:-2147483647;display:block;background:rgba(0, 0, 0, 0.7);border:0;overflow:hidden;visibility:hidden;margin:0;padding:0;position:fixed;left:0;top:0;width:0;opacity:0;height:0;transition:opacity 220ms ease-in;">
     <svg class="mp-spinner" viewBox="25 25 50 50">
         <circle class="mp-spinner-path" cx="50" cy="50" r="20" fill="none" stroke-miterlimit="10"></circle>
     </svg>
 </div>
-<div class="mp-mercadopago-checkout-wrapper" style="z-index:-2147483647;display:block;background:rgba(0, 0, 0, 0.7);border:0;overflow:hidden;visibility:hidden;margin:0;padding:0;position:fixed;left:0;top:0;width:0;opacity:0;height:0;transition:opacity 220ms ease-in;">
+<div class="mp-mercadopago-checkout-wrapper"
+     style="z-index:-2147483647;display:block;background:rgba(0, 0, 0, 0.7);border:0;overflow:hidden;visibility:hidden;margin:0;padding:0;position:fixed;left:0;top:0;width:0;opacity:0;height:0;transition:opacity 220ms ease-in;">
     <svg class="mp-spinner" viewBox="25 25 50 50">
         <circle class="mp-spinner-path" cx="50" cy="50" r="20" fill="none" stroke-miterlimit="10"></circle>
     </svg>
 </div>
-<div class="mp-mercadopago-checkout-wrapper" style="z-index:-2147483647;display:block;background:rgba(0, 0, 0, 0.7);border:0;overflow:hidden;visibility:hidden;margin:0;padding:0;position:fixed;left:0;top:0;width:0;opacity:0;height:0;transition:opacity 220ms ease-in;">
+<div class="mp-mercadopago-checkout-wrapper"
+     style="z-index:-2147483647;display:block;background:rgba(0, 0, 0, 0.7);border:0;overflow:hidden;visibility:hidden;margin:0;padding:0;position:fixed;left:0;top:0;width:0;opacity:0;height:0;transition:opacity 220ms ease-in;">
     <svg class="mp-spinner" viewBox="25 25 50 50">
         <circle class="mp-spinner-path" cx="50" cy="50" r="20" fill="none" stroke-miterlimit="10"></circle>
     </svg>
 </div>
-<div class="mp-mercadopago-checkout-wrapper" style="z-index:-2147483647;display:block;background:rgba(0, 0, 0, 0.7);border:0;overflow:hidden;visibility:hidden;margin:0;padding:0;position:fixed;left:0;top:0;width:0;opacity:0;height:0;transition:opacity 220ms ease-in;">
+<div class="mp-mercadopago-checkout-wrapper"
+     style="z-index:-2147483647;display:block;background:rgba(0, 0, 0, 0.7);border:0;overflow:hidden;visibility:hidden;margin:0;padding:0;position:fixed;left:0;top:0;width:0;opacity:0;height:0;transition:opacity 220ms ease-in;">
     <svg class="mp-spinner" viewBox="25 25 50 50">
         <circle class="mp-spinner-path" cx="50" cy="50" r="20" fill="none" stroke-miterlimit="10"></circle>
     </svg>
 </div>
-<div class="mp-mercadopago-checkout-wrapper" style="z-index:-2147483647;display:block;background:rgba(0, 0, 0, 0.7);border:0;overflow:hidden;visibility:hidden;margin:0;padding:0;position:fixed;left:0;top:0;width:0;opacity:0;height:0;transition:opacity 220ms ease-in;">
+<div class="mp-mercadopago-checkout-wrapper"
+     style="z-index:-2147483647;display:block;background:rgba(0, 0, 0, 0.7);border:0;overflow:hidden;visibility:hidden;margin:0;padding:0;position:fixed;left:0;top:0;width:0;opacity:0;height:0;transition:opacity 220ms ease-in;">
     <svg class="mp-spinner" viewBox="25 25 50 50">
         <circle class="mp-spinner-path" cx="50" cy="50" r="20" fill="none" stroke-miterlimit="10"></circle>
     </svg>
