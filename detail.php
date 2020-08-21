@@ -460,6 +460,7 @@ $preference->integrator_id = 'dev_24c65fb163bf11ea96500242ac130004';
 $preference->notification_url = 'https://gstrada-mp-ecommerce-php.herokuapp.com/notifications.php';
 
 $preference->save();
+var_dump($preference);
 ?>
 
 <body class="as-theme-light-heroimage">
