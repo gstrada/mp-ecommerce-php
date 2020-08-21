@@ -36,11 +36,11 @@
             <div style="width: 80%; background-color: #a2bd90; height: 100px; border-radius: 15px;display: flex;justify-content: center
                     ; align-items: center; color: #006400">
                 <h1>Tu compra fué realizada exitosamente!</h1>
-                <br>
-                <div class="col-md-12 d-flex justify-content-center">
-                    <a href="/index.php">
-                        <button type="button" class="btn btn-primary"></button></a>
-                </div>
+            </div>
+            <br>
+            <div class="col-md-12 d-flex justify-content-center">
+                <a href="/index.php">
+                    <button type="button" class="btn btn-primary"></button></a>
             </div>
         </div>
     <div class="as-footnotes" style="position: absolute; bottom: 0px; width: 100%">
