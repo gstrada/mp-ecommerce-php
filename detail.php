@@ -410,7 +410,7 @@
             border: 0;
         } </style>
 </head>
-
+<?php echo $_POST['title'] ?>
 
 <body class="as-theme-light-heroimage">
 
