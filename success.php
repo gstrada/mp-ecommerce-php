@@ -39,7 +39,7 @@
 
 <div class="container-fluid">
         <div class="row" style="display: flex; justify-content: center">
-            <div style="margin-top: 25%; width: 80%; background-color: #a2bd90; height: 100px; border-radius: 15px;display: flex;justify-content: center
+            <div style="margin-top: 15%; width: 80%; background-color: #a2bd90; height: 100px; border-radius: 15px;display: flex;justify-content: center
                     ; align-items: center; color: #006400">
                 <h1>Tu compra fué realizada exitosamente!</h1>
             </div>
