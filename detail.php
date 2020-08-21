@@ -13,7 +13,7 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-    <script src="https://www.mercadopago.com/v2/security.js" view="item"></script>
+    <script src="https://www.mercadopago.com/v2/security.js" view=""></script>
 
     <link rel="stylesheet" href="./assets/category-landing.css" media="screen, print">
 
@@ -472,7 +472,7 @@
                                 <div class="images mini-gallery gal5 ">
                                     <?php
                                     // SDK de Mercado Pago
-                                    require __DIR__ .'/vendor/autoload.php';
+                                    require './vendor/autoload.php';
 
                                     // Agrega credenciales
                                     MercadoPago\SDK::setAccessToken('APP_USR-6317427424180639-042414-47e969706991d3a442922b0702a0da44-469485398');

@@ -55,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597973437663</updated>
-      <workItem from="1597973438782" duration="18059000" />
+      <workItem from="1597973438782" duration="18451000" />
     </task>
     <task id="LOCAL-00001" summary="reformat code">
       <created>1597974232886</created>
@@ -379,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597991513084</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Reformat details">
+      <created>1597991763311</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1597991763311</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,18 +413,18 @@
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
     <state x="1672" y="62" key="#Inspections/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597973971142" />
-    <state x="1671" y="129" width="749" height="639" key="CommitChangelistDialog2" timestamp="1597991507190">
+    <state x="1671" y="129" width="749" height="639" key="CommitChangelistDialog2" timestamp="1597991741507">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
-    <state x="1671" y="129" width="749" height="639" key="CommitChangelistDialog2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597991507190" />
+    <state x="1671" y="129" width="749" height="639" key="CommitChangelistDialog2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597991741507" />
     <state x="1880" y="307" key="NewPhpFileDialog" timestamp="1597984002943">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
     <state x="1880" y="307" key="NewPhpFileDialog/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597984002943" />
-    <state x="1638" y="117" key="Vcs.Push.Dialog.v2" timestamp="1597991514794">
+    <state x="1638" y="117" key="Vcs.Push.Dialog.v2" timestamp="1597991769191">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
-    <state x="1638" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597991514794" />
+    <state x="1638" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597991769191" />
     <state x="1753" y="117" width="585" height="534" key="find.popup" timestamp="1597982274325">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
