@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd81f62d-4f2c-4a29-967c-17ce1645dd9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/failure.php" beforeDir="false" afterPath="$PROJECT_DIR$/failure.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pending.php" beforeDir="false" afterPath="$PROJECT_DIR$/pending.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/detail.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597973437663</updated>
-      <workItem from="1597973438782" duration="16520000" />
+      <workItem from="1597973438782" duration="16881000" />
     </task>
     <task id="LOCAL-00001" summary="reformat code">
       <created>1597974232886</created>
@@ -310,7 +309,28 @@
       <option name="project" value="LOCAL" />
       <updated>1597989944357</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Creo back_url_pending">
+      <created>1597990219812</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1597990219812</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Creo back_url_failure">
+      <created>1597990296917</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1597990296917</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Creo back_url_failure">
+      <created>1597990344978</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1597990344978</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +343,9 @@
     <MESSAGE value="Agrego botón MP" />
     <MESSAGE value="Creo preferencia de pago" />
     <MESSAGE value="Creo back_url_success" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creo back_url_success" />
+    <MESSAGE value="Creo back_url_pending" />
+    <MESSAGE value="Creo back_url_failure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creo back_url_failure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1856" y="263" key="#Composer" timestamp="1597973616101">
@@ -334,18 +356,18 @@
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
     <state x="1672" y="62" key="#Inspections/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597973971142" />
-    <state x="1671" y="0" key="CommitChangelistDialog2" timestamp="1597989940019">
+    <state x="1671" y="129" width="749" height="639" key="CommitChangelistDialog2" timestamp="1597990336008">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
-    <state x="1671" y="0" key="CommitChangelistDialog2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597989940019" />
+    <state x="1671" y="129" width="749" height="639" key="CommitChangelistDialog2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597990336008" />
     <state x="1880" y="307" key="NewPhpFileDialog" timestamp="1597984002943">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
     <state x="1880" y="307" key="NewPhpFileDialog/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597984002943" />
-    <state x="1638" y="117" key="Vcs.Push.Dialog.v2" timestamp="1597989959664">
+    <state x="1638" y="117" key="Vcs.Push.Dialog.v2" timestamp="1597990342971">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
-    <state x="1638" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597989959664" />
+    <state x="1638" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597990342971" />
     <state x="1753" y="117" width="585" height="534" key="find.popup" timestamp="1597982274325">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
