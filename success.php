@@ -30,7 +30,7 @@
         .as-footnotes {
             background: #333;
             color: #fff;
-            padding: 0px 0px 0px 0px;
+            padding: 0px 0px 20px 15px;
         }
     </style>
 </head>
