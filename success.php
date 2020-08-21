@@ -447,22 +447,29 @@
                             <span class="as-search-results-value"></span>
                         </div>
                     </div>
-                    <div class="as-searchnav-placeholder" style="height: 77px;">
+                    <div class="as-searchnav-placeholder">
                         <div class="row as-search-navbar" id="as-search-navbar" style="width: 100%;">
                             <div class="as-accessories-filter-tile column large-12 small-6 " style="display: flex; justify-content: center">
                                 <div style="width: 80%; background-color: #a2bd90; height: 100px; border-radius: 15px;display: flex;justify-content: center
                                         ; align-items: center; color: #006400">
                                     <h1>Tu compra fué realizada exitosamente!</h1>
                                     <br>
-                                    <a href="/index.php">
-                                        <button type="button" class="btn btn-primary"></button></a>
-                                </div>
+
 
                             </div>
 
                         </div>
                     </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 d-flex justify-content-center">
+                                <a href="/index.php">
+                                    <button type="button" class="btn btn-primary"></button></a>
+                            </div>
+                        </div>
 
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
