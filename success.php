@@ -455,7 +455,7 @@
                                     <h1>Tu compra fué realizada exitosamente!</h1>
                                     <br>
                                     <a href="/index.php">
-                                        <button type="button" class=""></button></a>
+                                        <button type="button" class="btn btn-primary"></button></a>
                                 </div>
 
                             </div>
