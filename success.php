@@ -58,22 +58,22 @@
                  class="pd-billboard-hero ir">
         </div>
     </div>
-    <div class="container-fluid">
         <div class="row" style="display: flex; justify-content: center">
             <div style="width: 80%; background-color: #a2bd90; height: 100px; border-radius: 15px;display: flex;justify-content: center
                     ; align-items: center; color: #006400">
                 <h1>Tu compra fué realizada exitosamente!</h1>
                 <br>
+                <div class="col-md-12 d-flex justify-content-center">
+                    <a href="/index.php">
+                        <button type="button" class="btn btn-primary"></button></a>
+                </div>
             </div>
         </div>
 
     <div class="row">
-            <div class="col-md-12 d-flex justify-content-center">
-                <a href="/index.php">
-                    <button type="button" class="btn btn-primary"></button></a>
-            </div>
+
         </div>
-    </div>
+
     <div class="as-footnotes" style="position: absolute; bottom: 0px; width: 100%">
         <div class="as-footnotes-content">
             <div class="as-footnotes-sosumi">
