@@ -28,9 +28,9 @@ $payer->address = array('street_name' => 'False', 'street_number' => '123', 'zip
 $preference->items = array($item);
 $preference->payer = $payer;
 $preference->back_urls = array(
-    'success' => 'https://gstrada-mp-ecommerce-php.herokuapp.com//success.php',
-    'failure' => 'https://gstrada-mp-ecommerce-php.herokuapp.com//failure.php',
-    'pending' => 'https://gstrada-mp-ecommerce-php.herokuapp.com//pending.php'
+    'success' => 'https://gstrada-mp-ecommerce-php.herokuapp.com/success.php',
+    'failure' => 'https://gstrada-mp-ecommerce-php.herokuapp.com/failure.php',
+    'pending' => 'https://gstrada-mp-ecommerce-php.herokuapp.com/pending.php'
 );
 $preference->auto_return = 'approved';
 $preference->payment_methods = array(

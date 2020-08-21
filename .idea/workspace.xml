@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cd81f62d-4f2c-4a29-967c-17ce1645dd9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,21 +57,7 @@
       <updated>1597973437663</updated>
       <workItem from="1597973438782" duration="18817000" />
       <workItem from="1598031012838" duration="191000" />
-      <workItem from="1598031339024" duration="8829000" />
-    </task>
-    <task id="LOCAL-00004" summary="Agrego botón MP">
-      <created>1597976816155</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1597976816156</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Agrego botón MP">
-      <created>1597977063722</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1597977063722</updated>
+      <workItem from="1598031339024" duration="9610000" />
     </task>
     <task id="LOCAL-00006" summary="Creo preferencia de pago">
       <created>1597977810609</created>
@@ -403,7 +388,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598039833283</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Elimino archivo innecesario">
+      <created>1598041277833</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1598041277835</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Seteo id de integrador">
+      <created>1598041575814</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1598041575814</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +421,9 @@
     <MESSAGE value="Configuracion webhook" />
     <MESSAGE value="Pongo url heroku" />
     <MESSAGE value="Cambio webhook" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambio webhook" />
+    <MESSAGE value="Elimino archivo innecesario" />
+    <MESSAGE value="Seteo id de integrador" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seteo id de integrador" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1856" y="263" key="#Composer" timestamp="1597973616101">
@@ -433,18 +434,18 @@
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
     <state x="1672" y="62" key="#Inspections/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597973971142" />
-    <state x="1671" y="129" width="749" height="639" key="CommitChangelistDialog2" timestamp="1598039829114">
+    <state x="1671" y="129" width="749" height="639" key="CommitChangelistDialog2" timestamp="1598041573325">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
-    <state x="1671" y="129" width="749" height="639" key="CommitChangelistDialog2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1598039829114" />
+    <state x="1671" y="129" width="749" height="639" key="CommitChangelistDialog2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1598041573325" />
     <state x="1880" y="307" key="NewPhpFileDialog" timestamp="1597984002943">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
     <state x="1880" y="307" key="NewPhpFileDialog/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1597984002943" />
-    <state x="1638" y="117" key="Vcs.Push.Dialog.v2" timestamp="1598039839857">
+    <state x="1638" y="117" key="Vcs.Push.Dialog.v2" timestamp="1598041585813">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
-    <state x="1638" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1598039839857" />
+    <state x="1638" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1360.768/-1280.44.1280.720@1366.0.1360.768" timestamp="1598041585813" />
     <state x="1753" y="117" width="585" height="534" key="find.popup" timestamp="1598031633603">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
