@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html
+<html style="font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;"
       lang="en-US">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -49,7 +49,7 @@
     <br>
     <div class="row" style="display: flex; justify-content: center">
         <div class="col-md-12 d-flex justify-content-center">
-            <button type="button" class="btn btn-primary">Volver al inicio</button>
+            <a href="/index.php"><button type="button" class="btn btn-primary">Volver al inicio</button></a>
         </div>
     </div>
     <div class="as-footnotes" style="position: absolute; bottom: 0px; width: 100%">
