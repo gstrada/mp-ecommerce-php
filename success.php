@@ -446,7 +446,7 @@
                     <div class="as-searchnav-placeholder" style="height: 77px;">
                         <div class="row as-search-navbar" id="as-search-navbar" style="width: 100%;">
                             <div class="as-accessories-filter-tile column large-12 small-6 " style="display: flex; justify-content: center">
-                                <div style="width: 80%; background-color: #a2bd90">
+                                <div style="width: 80%; background-color: #a2bd90; height: 100px; border-radius: 15px">
                                     <h1>Tu compra fué realizada exitosamente!</h1>
                                 </div>
 
