@@ -28,9 +28,9 @@ $payer->address = array('street_name' => 'False', 'street_number' => '123', 'zip
 $preference->items = array($item);
 $preference->payer = $payer;
 $preference->back_urls = array(
-    'success' => 'https://localhost/success.php',
-    'failure' => 'https://localhost/failure.php',
-    'pending' => 'https://localhost/pending.php'
+    'success' => 'https://gstrada-mp-ecommerce-php.herokuapp.com//success.php',
+    'failure' => 'https://gstrada-mp-ecommerce-php.herokuapp.com//failure.php',
+    'pending' => 'https://gstrada-mp-ecommerce-php.herokuapp.com//pending.php'
 );
 $preference->auto_return = 'approved';
 $preference->payment_methods = array(
@@ -44,7 +44,7 @@ $preference->payment_methods = array(
 );
 $preference->external_reference = 'guillermostrada@gmail.com';
 $preference->integrator_id = 'dev_24c65fb163bf11ea96500242ac130004';
-$preference->notification_url = 'https://localhost/notifications.php';
+$preference->notification_url = 'https://gstrada-mp-ecommerce-php.herokuapp.com//notifications.php';
 
 $preference->save();
 ?>
